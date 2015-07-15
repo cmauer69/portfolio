@@ -1,0 +1,27 @@
+footer{
+    text-align: center;
+}
+footer ul li{
+ display: inline-block;
+ margin: 10px;
+}
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 1.5em;
+        font-weight: bold;
+        
+    }
+    h2{
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    .container-fluid h1{
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+   footer{
+    text-align: left;
+    font-weight: bold
+   }
+}
