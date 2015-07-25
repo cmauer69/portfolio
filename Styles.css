@@ -1,3 +1,38 @@
+#myScrollspy {
+      position: relative; 
+      top: 0px;
+      height: 500px;
+      overflow: auto;
+      font-size: 28px;
+  }
+#section1 {color: #fff;
+            background-color: #53A16A;
+            height: 500px;
+    }
+#section2 {color: #520C01; 
+            background-color: #A0C867;
+            height: 500px;}
+#section3 {color: #fff; 
+            background-color: #B75E87;
+            height: 500px;}
+#section41 {color: #fff; 
+            background-color: #4D7414;
+            height: 500px;}
+.col-md-5 {
+    padding: 70px;
+}
+.col-md-5 #uofm {
+    padding: 30px;
+    font-size: 0.8em;
+}
+#section42 {color: #fff; 
+            background-color: #7E2416;
+            height: 500px;}
+.img-responsive{
+   padding: 15px;
+    
+}
+
 h1 {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 24px;
@@ -5,6 +40,15 @@ h1 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.3999996185303px;
+}
+.bio-heading1{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 48px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+    padding: 60px;
 }
 h3 {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -16,11 +60,17 @@ h3 {
 }
 p {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 14px;
-	font-style: normal;
+	font-size: 16px;
+	font-style: bold;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+}
+
+.bio-body{
+    padding: 60px;
+    font-size: 30px;
+    
 }
 blockquote {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -42,8 +92,11 @@ body{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #FFB2A6;
 }
-#section1{
-   background-color: #53A16A; 
+body #bio{
+font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #FFB2A6;
+    padding: 60px;
+    
 }
 footer{
     text-align: center;
@@ -67,6 +120,33 @@ footer ul li{
         font-size: 1.1em;
         font-weight: bold;
     }
+#section1 {color: #fff;
+            background-color: #53A16A;
+            height: auto;}
+#section2 {color: #520C01; 
+            background-color: #A0C867;
+            height: auto;}
+#section3 {color: #fff; 
+            background-color: #B75E87;
+            height: auto;}
+#section41 {color: #fff; 
+            background-color: #4D7414;
+            height: auto;}
+#section42 {color: #fff; 
+            background-color: #7E2416;
+            height: auto;}
+.bio-heading1{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 32px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+    padding: 40px;
+.bio-body{
+    padding: 30px;
+    font-size: 15px;
+
    footer{
     text-align: left;
     font-weight: bold
