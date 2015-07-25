@@ -117,13 +117,6 @@
  
 }
  
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    @font-face {
-        font-family:si;
-        src: url(fonts/socicon-1.3/socicon.svg) format(svg);
-    }
-}
-
 .soc {
     overflow:hidden;
     margin:0; padding:0;
@@ -132,8 +125,6 @@
 
 .soc li {
     display:inline-block;
-    *display:inline;
-    zoom:1;
 }
 
 .soc li a {
@@ -173,7 +164,6 @@
     border-radius: 8px;
     margin-right: 8px;
     color: #ffffff;
-    background-color: none;
 }
 
 .soc a:hover {
